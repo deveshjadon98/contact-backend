@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "api to manage contacts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start.refresh": "git pull && npm install && node server",
+    "start.dev": "node-dev server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devesh",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "deasync": "^0.1.9",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.1",
+    "nodemon": "^1.11.0"
+  }
+}
