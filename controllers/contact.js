@@ -32,7 +32,7 @@ module.exports = {
             return contact;
         })()
             .then((success) => {
-                return response.ok(res, success);
+                return response.created(res, success);
             })
             .catch((err) => {
                 return response.error(res, err);
