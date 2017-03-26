@@ -1,7 +1,6 @@
 'use strict';
 
 const mongoose = require('mongoose');
-const responses = require('./../../config/constants/response');
 
 const emailSchema = new mongoose.Schema(
     {
