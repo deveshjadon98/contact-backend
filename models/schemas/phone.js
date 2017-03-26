@@ -8,8 +8,7 @@ const phoneSchema = new mongoose.Schema(
             type: String,
             trim: true,
             required: true,
-            lowercase: true,
-            unique: true
+            lowercase: true
         },
         type: {
             type: String,
